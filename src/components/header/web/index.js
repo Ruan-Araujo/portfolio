@@ -10,25 +10,25 @@ function Web() {
         <div className="web">
             <div className="web-option">
                 <a href="#projects">
-                    <img src={projects} className="option-icons"/> Projetos
+                    <img src={projects} className="option-icons"alt="icone projetos"/> Projetos
                 </a>
             </div>
 
             <div className="web-option">
                 <a href="#skils">
-                    <img src={skils} className="option-icons"/> Habilidades
+                    <img src={skils} className="option-icons" alt="icone habilidades"/> Habilidades
                 </a>
             </div>
 
             <div className="web-option">
                 <a href="#work">
-                <img src={work} className="option-icons"/> Trabalho
+                <img src={work} className="option-icons" alt="icone trabalho"/> Trabalho
                 </a>
             </div>
 
             <div className="web-option">
                 <a href="#contact">
-                <img src={contato} className="option-icons"/> Contato
+                <img src={contato} className="option-icons"  alt="icone contato"/> Contato
                 </a>
             </div>
         </div>

@@ -10,7 +10,7 @@ function ProjectCard({ project }) {
                     {project.demo && 
                         <a className="project-link" href={project.demo}>
                             <div className="link-button">
-                                <img className="project-icon-global" src={global}/> demo
+                                <img className="project-icon-global" src={global} alt="icone"/> demo
                             </div>
                         </a>}
                         {project.github && 
@@ -29,7 +29,7 @@ function ProjectCard({ project }) {
                     })}
                 </div>  
             </div>
-            <img src={project.image} className="project-photo"/>
+            <img src={project.image} className="project-photo" class="foto dos projetos"/>
         </div>
     )
 }

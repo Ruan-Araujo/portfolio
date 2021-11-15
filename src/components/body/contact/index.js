@@ -13,7 +13,7 @@ function Contact() {
                     <SocialContact/>
                 </div>
                 <div className="download">
-                    <a download href="#">
+                    <a>
                         <i class="devicon-googlecloud-plain colored" className="download-icon"></i>
                         Baixar CV
                     </a>
